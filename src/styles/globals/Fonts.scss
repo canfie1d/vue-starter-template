@@ -1,0 +1,26 @@
+////////////////////////////////////////
+//      Font-Family Definitions       //
+////////////////////////////////////////
+
+$helvetica: 'Helvetica', Helvetica, Arial, sans-serif;
+
+///////////////////////////////
+//      Font Variables       //
+///////////////////////////////
+$display-font: $helvetica;
+$body-font: $helvetica;
+
+////////////////////////////
+//      Font Mixins       //
+////////////////////////////
+@mixin displayFont($color: $display-color) {
+  font-family: $display-font;
+  font-weight: 400;
+  color: $color;
+}
+
+@mixin bodyFont($color: $body-color) {
+  font-family: $body-font;
+  font-weight: 400;
+  color: $body-color;
+}

@@ -1,0 +1,24 @@
+//////////////////////////////
+//      Color Vars          //
+//////////////////////////////
+
+$white: #fff;
+$black: #000;
+
+// Thematic colors
+$primary: #00C185;
+$secondary: #878787;
+$off-white: #F9FAFB;
+
+// Status colors
+$status--success: #25d785;
+$status--warning: #f27225;
+$status--error: #ea4626;
+
+// Typography
+$display-color: $primary;
+$body-color: $secondary;
+
+// TODO Ask about color rendering differences in browser vs in Sketch
+// Designer probably didn't intend for colors to be so vibrant
+$primary-gradient: linear-gradient(to right, #F77062, #FE5196)

@@ -1,0 +1,11 @@
+p,
+span,
+a {
+	@include bodyFont();
+}
+
+h1,
+h2,
+h3 {
+	@include displayFont();
+}
